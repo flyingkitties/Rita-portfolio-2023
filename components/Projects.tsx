@@ -20,11 +20,6 @@ const Projects = (props: Props) => {
         className="relative w-full flex overflow-x-scroll overflow-y-hidden 
       nap-x snap-mandatory z-20"
       >
-        {projects.map((project) => (
-          <div>
-            <img src="" alt="" />
-          </div>
-        ))}
         {/* project maping */}
       </div>
 
