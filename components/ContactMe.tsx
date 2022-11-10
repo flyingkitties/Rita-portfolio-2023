@@ -19,7 +19,7 @@ const ContactMe = (props: Props) => {
       <div className="flex flex-col space-y-5">
         <h4 className="text-4xl font-semibold text-center">Get in touch</h4>
         <p className="text-xl text-center">
-          I'm currently open to new opportunities.
+          I&apos;m currently open to new opportunities.
         </p>
         <p className="text-xl text-center ">Lets talk</p>
       </div>

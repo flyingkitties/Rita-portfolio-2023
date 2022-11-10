@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     z-0  "
     >
       <Head>
-        <title>Rita's Portfolio</title>
+        <title>Rita&apos;s Portfolio</title>
       </Head>
 
       <Header />
