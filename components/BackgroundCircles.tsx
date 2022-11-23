@@ -38,7 +38,7 @@ function BackgroundCircles({}: Props) {
       />
       <div
         className="absolute border border-[#333333] rounded-full h-[500px] w-[500px]
-      mt-52 an"
+      mt-52 "
       />
     </motion.div>
   );

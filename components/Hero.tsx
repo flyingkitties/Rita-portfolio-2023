@@ -4,6 +4,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import profilePic from "../pages/images/rita.jpeg";
 import Link from "next/link";
+import Snowfall from "react-snowfall";
 
 type Props = {};
 
@@ -30,7 +31,7 @@ function Hero({}: Props) {
         </h2>
         <h1 className="text-3xl lg:text-4xl font-semibold px-10 pb-12">
           <span className="mr-3 ">{text}</span>
-          <Cursor cursorColor="#FFD700" />
+          <Cursor cursorColor="#f7ab0a" />
         </h1>
         <div className="pt-12 mt-4">
           <Link href="#about">

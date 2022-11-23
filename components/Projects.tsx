@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCards from "./ProjectCards";
 
 type Props = {};
 
@@ -6,7 +7,7 @@ const Projects = (props: Props) => {
   const projects = [1, 2, 3, 4, 5];
   return (
     <div
-      className="h-screen relative flex overflow-hidden flex-col 
+      className="h-screen relative flex  flex-col 
     text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 "
     >
       <h3
@@ -17,9 +18,16 @@ const Projects = (props: Props) => {
       </h3>
 
       <div
-        className="relative w-full flex overflow-x-scroll overflow-y-hidden 
-      nap-x snap-mandatory z-20"
+        className="relative w-full flex  overflow-y-hidden 
+      snap-x snap-mandatory mt-20 space-x-5 p-10 z-20 scrollbar-thin scrollbar-track-gray-600/20
+      scrollbar-thumb-[#f7ab0a]/70"
       >
+        <ProjectCards />
+        <ProjectCards />
+        <ProjectCards />
+        <ProjectCards />
+        <ProjectCards />
+        <ProjectCards />
         {/* project maping */}
       </div>
 

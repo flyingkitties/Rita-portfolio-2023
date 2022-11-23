@@ -2,11 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.moveTiles:hover {
+  transform: translate(0, -10px);
+}
+
 @layer components {
   .heroButton {
     @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all 
      hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40;
   }
+  .contactInput {
+    @apply outline-none bg-[rgb(68,68,68)]/70 rounded-b px-4 py-2 border border-[rgb(48,48,48)] 
+    text-gray-500 placeholder-gray-500 transition-all focus:border-[#f7ab0a]/70 focus:text-[#f7ab0a]/70
+    hover:border-[#f7ab0a]/70;
+  }
+}
+#move_Tiles:hover {
+  transform: translate(0, -10px);
 }
 
 #hideMeAfter5Seconds {

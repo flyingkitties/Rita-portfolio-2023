@@ -30,13 +30,13 @@ function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://instagram.com/in/jaketrent"
+          url="https://www.instagram.com/ritawilliamsarmani/"
           fgColor="gray"
           bgColor="transparent"
         />
 
         <SocialIcon
-          url="https://github.com/in/jaketrent"
+          url="https://github.com/flyingkitties"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -59,7 +59,8 @@ function Header({}: Props) {
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
         <SocialIcon
-          url="https://email.com/in/jaketrent"
+          network="email"
+          url="#contact"
           fgColor="gray"
           bgColor="transparent"
         />
