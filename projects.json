@@ -1,21 +1,54 @@
 [
   {
-    "title": "https://links.papareact.com/2io",
-    "description": "Outdoor getaways",
-    "technology": "",
+    "key": "1",
+    "title": "Amazon Replicated",
+    "description": "A replica of Amazon's website. The user is able to login using google authentication, add items to the basket, checkout and pay for the items. Previous succesful orders can be viewed in 'Returns & Orders'",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "NextAuth",
+    "technology4": "Stripe",
+    "technology5": "Firebase",
+    "technology6": "Webhooks",
     "url1": "https://github.com/flyingkitties/Amazon-Replicate",
-    "url2": "https://www.amazonreplicate.ritaguilherme.com/orders"
+    "url2": "https://www.amazonreplicate.ritaguilherme.com"
   },
   {
-    "img": "/images/unique3.jpeg",
-    "title": "Unique stays"
+    "key": "2",
+    "title": "Reddit Replicated",
+    "description": "Outdoor getaways",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "NextAuth",
+    "technology4": "Stripe",
+    "technology5": "Firebase",
+    "technology6": "Webhooks",
+    "url1": "https://github.com/flyingkitties/Reddit-replicate",
+    "url2": ""
   },
   {
-    "img": "https://links.papareact.com/s03",
-    "title": "Entire homes"
+    "key": "3",
+    "title": "Airbnb Replicated",
+    "description": "Outdoor getaways",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "NextAuth",
+    "technology4": "Stripe",
+    "technology5": "Firebase",
+    "technology6": "Webhooks",
+    "url1": "https://github.com/flyingkitties/AirBNB-Replicate",
+    "url2": "https://airbnbreplicate.ritaguilherme.com"
   },
   {
-    "img": "https://links.papareact.com/8ix",
-    "title": "Pet allowed"
+    "key": "4",
+    "title": "",
+    "description": "",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "NextAuth",
+    "technology4": "Stripe",
+    "technology5": "Firebase",
+    "technology6": "Webhooks",
+    "url1": "https://github.com/flyingkitties/Amazon-Replicate",
+    "url2": ""
   }
 ]

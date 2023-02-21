@@ -8,8 +8,10 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import ExperienceCard from "../components/ExperienceCard";
+import { CardProps } from "../components/CardProps";
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ data, projectData }: any) => {
   return (
     <div
       className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden
@@ -32,8 +34,9 @@ const Home: NextPage = () => {
       </section>
 
       {/* Experience */}
+
       <section id="experience" className="snap-center">
-        <Experience />
+        <Experience key={data.key} data={data} />
       </section>
 
       {/* Skills */}
@@ -43,7 +46,7 @@ const Home: NextPage = () => {
 
       {/* projects */}
       <section id="projects" className="snap-center">
-        <Projects />
+        <Projects key={projectData.key} projectData={projectData} />
       </section>
 
       {/* Contact Me */}
@@ -55,3 +58,15 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export async function getStaticProps() {
+  const data = require("../workExp.json");
+  const projectData = require("../projects.json");
+
+  return {
+    props: {
+      data,
+      projectData,
+    },
+  };
+}

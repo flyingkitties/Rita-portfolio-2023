@@ -2,9 +2,21 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 
-type Props = {};
+const ProjectCards = ({ projectData }: any) => {
+  const {
+    key,
+    title,
+    description,
+    technology1,
+    technology2,
+    technology3,
+    technology4,
+    technology5,
+    technology6,
+    url1,
+    url2,
+  } = projectData;
 
-const ProjectCards = (props: Props) => {
   return (
     <div
       className="z-10 flex flex-col rounded-lg items-center bg-[rgb(36,36,36)]
@@ -15,30 +27,28 @@ const ProjectCards = (props: Props) => {
         <div className="absolute flex h-25 w-25 top-0 right-0 ">
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
-            url="https://github.com/flyingkitties/Amazon-Replicate"
+            url={url1}
             fgColor="gray"
             bgColor="transparent"
           />
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
-            url="https://www.amazonreplicate.ritaguilherme.com/orders"
+            url={url2}
             fgColor="gray"
             bgColor="transparent"
           />
         </div>
-        <h4 className="text-xl font-bold cursor-pointer">Amazon Replicated</h4>
+        <h4 className="text-xl font-bold cursor-pointer">{title}</h4>
         <p className="font-light text-l mt-1 text-justify cursor-pointer">
-          A replica of Amazon's website. The user is able to login using google
-          authentication, add items to the basket, checkout and pay for the
-          items. Previous succesful orders can be viewed in "Returns & Orders"{" "}
+          {description}
         </p>
         <div className="flex text-sm space-x-4 pt-5 font-extralight cursor-pointer">
-          <p className="hover:underline ">React.js</p>
-          <p className="hover:underline">Next.js</p>
-          <p className="hover:underline">NextAuth</p>
-          <p className="hover:underline">Stripe</p>
-          <p className="hover:underline">Firebase</p>
-          <p className="hover:underline">Webhooks</p>
+          <p className="hover:underline ">{technology1}</p>
+          <p className="hover:underline">{technology2}</p>
+          <p className="hover:underline">{technology3}</p>
+          <p className="hover:underline">{technology4}</p>
+          <p className="hover:underline">{technology5}</p>
+          <p className="hover:underline">{technology6}</p>
         </div>
       </div>
     </div>

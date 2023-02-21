@@ -1,9 +1,12 @@
 import React from "react";
+import { ProjectProps } from "./CardProps";
 import ProjectCards from "./ProjectCards";
 
-type Props = {};
+interface Props {
+  projectData: Array<ProjectProps>;
+}
 
-const Projects = (props: Props) => {
+const Projects = ({ projectData }: Props) => {
   const projects = [1, 2, 3, 4, 5];
   return (
     <div
@@ -22,12 +25,10 @@ const Projects = (props: Props) => {
       snap-x snap-mandatory mt-20 space-x-5 p-10 z-20 scrollbar-thin scrollbar-track-gray-600/20
       scrollbar-thumb-[#f7ab0a]/70"
       >
-        <ProjectCards />
-        <ProjectCards />
-        <ProjectCards />
-        <ProjectCards />
-        <ProjectCards />
-        <ProjectCards />
+        {projectData?.map((projectData) => (
+          <ProjectCards key={projectData.key} projectData={projectData} />
+        ))}
+
         {/* project maping */}
       </div>
 
