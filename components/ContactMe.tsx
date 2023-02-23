@@ -35,7 +35,7 @@ const ContactMe = (props: Props) => {
         <p className="text-l sm:text-xl text-center font-extralight">
           I&apos;m currently open to new opportunities.
         </p>
-        <p className="text-xl text-center ">Let's talk</p>
+        <p className="text-xl text-center ">Let&apos;s talk</p>
 
         <div className="space-y-5 pt-5 px-10 sm:px-0 ">
           <div className="flex text-left space-x-5 ">
