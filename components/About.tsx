@@ -49,10 +49,10 @@ function About({}: Props) {
           managing a team.
         </p>
         <p className=" font-light text-gray-400 tracking-[1px] text-justify lg:tracking-[3px] ">
-          Over the past 2 years I've focused on Full-stack Web Development and
+          Over the past 2 years I have focused on Full-stack Web Development and
           fell in love with the challenge. Problem solving is truly one of my
-          passions. I'm eager to lean more and collaborate in rapidly changing
-          enviroments.
+          passions. I&apos;m eager to lean more and collaborate in rapidly
+          changing enviroments.
         </p>
       </div>
     </motion.div>
