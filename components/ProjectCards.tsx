@@ -19,11 +19,10 @@ const ProjectCards = ({ projectData }: any) => {
 
   return (
     <div
-      className="z-10 flex flex-col rounded-lg items-center bg-[rgb(36,36,36)]
+      className="z-10 flex flex-col rounded-lg items-center bg-[rgb(68,68,68)]
     space-y-7 hover:opacity-100 flex-shrink-0 w-[450px] mt-10 p-7 text-center 
-    opacity-60  transition-opacity duration-200  hover:-translate-y-2"
-    >
-      <div className=" relative md:px-10 p-5 mx-5 space-y-7">
+    opacity-75  transition-opacity duration-200  hover:-translate-y-2">
+      <div className=" relative  p-3 mx-5 space-y-7">
         <div className="absolute flex h-25 w-25 top-0 right-0 ">
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
@@ -33,6 +32,7 @@ const ProjectCards = ({ projectData }: any) => {
           />
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
+            network="dribbble"
             url={url2}
             fgColor="gray"
             bgColor="transparent"

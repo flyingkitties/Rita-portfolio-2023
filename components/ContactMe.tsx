@@ -21,23 +21,23 @@ const ContactMe = (props: Props) => {
     <div
       className="h-screen relative flex flex-col md:flex-row 
     text-center md:text-left items-center mx-auto justify-evenly
-     px-10 max-w-7xl"
-    >
+    px-10 max-w-7xl">
       <h3
         className="absolute top-24 uppercase tracking-[20px]
-       text-gray-500 text-2xl "
-      >
+       text-gray-500 text-2xl ">
         Contact Me
       </h3>
 
-      <div className=" absolute top-36  flex flex-col space-y-3 pt-10">
-        <h4 className="text-4xl font-semibold text-center">Get in touch</h4>
-        <p className="text-xl text-center font-extralight">
+      <div className=" absolute top-36  flex flex-col space-y-3 pt-10 px-10">
+        <h4 className=" text-2xl sm:text-4xl font-semibold text-center">
+          Get in touch
+        </h4>
+        <p className="text-l sm:text-xl text-center font-extralight">
           I&apos;m currently open to new opportunities.
         </p>
-        <p className="text-xl text-center ">Lets talk</p>
+        <p className="text-xl text-center ">Let's talk</p>
 
-        <div className="space-y-5 pt-5 ">
+        <div className="space-y-5 pt-5 px-10 sm:px-0 ">
           <div className="flex text-left space-x-5 ">
             <EnvelopeIcon className="text-[#f7ab0a]/70 h-7 w-7  " />
             <p>Email me</p>
@@ -50,9 +50,8 @@ const ContactMe = (props: Props) => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className=" flex flex-col space-y-5 w-fit"
-        >
-          <div className="flex space-x-2">
+          className=" flex flex-col space-y-5 w-fit  ">
+          <div className="flex space-x-2 ">
             <input
               {...register("name")}
               placeholder="Name"
@@ -80,8 +79,7 @@ const ContactMe = (props: Props) => {
           />
           <button
             type="submit"
-            className="bg-[#f7ab0a]/70 py-3 rounded-lg text-[rgb(48,48,48)] font-bold hover:bg-[#f7ab0a]/90"
-          >
+            className="bg-[#f7ab0a]/70 py-3 rounded-lg text-[rgb(48,48,48)] font-bold hover:bg-[#f7ab0a]/90">
             Submit
           </button>
         </form>
