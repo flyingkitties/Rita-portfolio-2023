@@ -1,6 +1,6 @@
-import React from "react";
-import { SocialIcon } from "react-social-icons";
-import { motion } from "framer-motion";
+import React from 'react';
+import { SocialIcon } from 'react-social-icons';
+import { motion } from 'framer-motion';
 
 type Props = {};
 
@@ -21,24 +21,29 @@ function Header({}: Props) {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center"
-      >
+        className="flex flex-row items-center">
         {/* Social Icons */}
         <SocialIcon
           url="https://linkedin.com/in/rita-guilherme-b2632140"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
+          rel="noopener noreferrer"
         />
         <SocialIcon
           url="https://www.instagram.com/ritawilliamsarmani/"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
+          rel="noopener noreferrer"
         />
 
         <SocialIcon
           url="https://github.com/flyingkitties"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
+          rel="noopener noreferrer"
         />
       </motion.div>
 
@@ -56,17 +61,18 @@ function Header({}: Props) {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center text-gray-300 cursor-pointer"
-      >
-        <SocialIcon
-          network="email"
-          url="#contact"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400 ">
-          Get in Touch
-        </p>
+        className="flex flex-row items-center text-gray-300 cursor-pointer">
+        <a href="#contact">
+          <SocialIcon
+            network="email"
+            url="#contact"
+            fgColor="gray"
+            bgColor="transparent"
+          />
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-400 ">
+            Get in Touch
+          </p>
+        </a>
       </motion.div>
     </header>
   );

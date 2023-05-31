@@ -1,6 +1,9 @@
-import React from "react";
-import { SocialIcon } from "react-social-icons";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+import React from 'react';
+import { SocialIcon } from 'react-social-icons';
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
+import MdOutlineExitToApp from 'react-icons/md';
+import AiFillGithub from 'react-icons/ai';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ProjectCards = ({ projectData }: any) => {
   const {
@@ -27,13 +30,17 @@ const ProjectCards = ({ projectData }: any) => {
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
             url={url1}
+            target="_blank"
+            rel="noopener noreferrer"
             fgColor="gray"
             bgColor="transparent"
           />
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
-            network="dribbble"
+            network="sharethis"
             url={url2}
+            target="_blank"
+            rel="noopener noreferrer"
             fgColor="gray"
             bgColor="transparent"
           />
@@ -45,10 +52,10 @@ const ProjectCards = ({ projectData }: any) => {
         <div className="flex text-sm space-x-4 pt-5 font-extralight cursor-pointer">
           <p className="hover:underline ">{technology1}</p>
           <p className="hover:underline">{technology2}</p>
-          <p className="hover:underline">{technology3}</p>
-          <p className="hover:underline">{technology4}</p>
-          <p className="hover:underline">{technology5}</p>
-          <p className="hover:underline">{technology6}</p>
+          {technology3 && <p className="hover:underline">{technology3}</p>}
+          {technology4 && <p className="hover:underline">{technology4}</p>}
+          {technology5 && <p className="hover:underline">{technology5}</p>}
+          {technology6 && <p className="hover:underline">{technology6}</p>}
         </div>
       </div>
     </div>

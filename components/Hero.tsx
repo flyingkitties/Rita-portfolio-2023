@@ -1,16 +1,16 @@
-import Image from "next/image";
-import React from "react";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
-import BackgroundCircles from "./BackgroundCircles";
-import profilePic from "../pages/images/rita.jpeg";
-import Link from "next/link";
-import Snowfall from "react-snowfall";
+import Image from 'next/image';
+import React from 'react';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import BackgroundCircles from './BackgroundCircles';
+import profilePic from '../pages/images/rita.jpeg';
+import Link from 'next/link';
+import Snowfall from 'react-snowfall';
 
 type Props = {};
 
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["Hi, My name is Rita", "I love baking!", "<ButLoveToCodeMore/>"],
+    words: ['Hi, My name is Rita', 'I love baking!', '<ButLoveToCodeMore/>'],
     loop: true,
     delaySpeed: 2000,
   });

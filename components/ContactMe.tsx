@@ -1,6 +1,6 @@
-import React from "react";
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import { useForm, SubmitHandler } from "react-hook-form";
+import React from 'react';
+import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
+import { useForm, SubmitHandler } from 'react-hook-form';
 
 type Inputs = {
   name: string;
@@ -39,11 +39,11 @@ const ContactMe = (props: Props) => {
 
         <div className="space-y-5 pt-5 px-10 sm:px-0 ">
           <div className="flex text-left space-x-5 ">
-            <EnvelopeIcon className="text-[#f7ab0a]/70 h-7 w-7  " />
+            <EnvelopeIcon className="text-[#f7ab0a]/60 hover:text-[#f7ab0a]/70 h-7 w-7  " />
             <p>Email me</p>
           </div>
           <div className="flex text-left space-x-5 pb-5">
-            <MapPinIcon className="text-[#f7ab0a]/70 h-7 w-7  " />
+            <MapPinIcon className="text-[#f7ab0a]/60 hover:text-[#f7ab0a]/70 h-7 w-7  " />
             <p>Brighton</p>
           </div>
         </div>
@@ -53,13 +53,13 @@ const ContactMe = (props: Props) => {
           className=" flex flex-col space-y-5 w-fit  ">
           <div className="flex space-x-2 ">
             <input
-              {...register("name")}
+              {...register('name')}
               placeholder="Name"
               className="contactInput"
               type="text"
             />
             <input
-              {...register("email")}
+              {...register('email')}
               placeholder="Email"
               className="contactInput"
               type="email"
@@ -67,19 +67,19 @@ const ContactMe = (props: Props) => {
           </div>
 
           <input
-            {...register("subject")}
+            {...register('subject')}
             placeholder="Subject"
             className="contactInput"
             type="text"
           />
           <textarea
-            {...register("message")}
+            {...register('message')}
             placeholder="Message"
             className="contactInput"
           />
           <button
             type="submit"
-            className="bg-[#f7ab0a]/70 py-3 rounded-lg text-[rgb(48,48,48)] font-bold hover:bg-[#f7ab0a]/90">
+            className="bg-[#f7ab0a]/60 py-3 rounded-lg text-[rgb(48,48,48)] font-bold hover:bg-[#f7ab0a]/70">
             Submit
           </button>
         </form>

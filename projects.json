@@ -37,5 +37,28 @@
     "technology6": "Tailwind CSS",
     "url1": "https://github.com/flyingkitties/AirBNB-Replicate",
     "url2": "https://airbnbreplicate.ritaguilherme.com"
+  },
+  {
+    "key": "4",
+    "title": "Client Portfolio",
+    "description": "With a tidy layout this portfolio has a minimalist feel. A single page website with easy navigation, made using React social Icons, react-responsive-carousel and tailwing Css.  ",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "Tailwind CSS",
+    "url1": "https://github.com/flyingkitties/Lorenzo-Portfolio",
+    "url2": "https://www.lorenzopolato.co.uk"
+  },
+  {
+    "key": "5",
+    "title": "Recipe Corner",
+    "description": "A recipe website with an original design and structure. Made with the Spoonacular API, Prisma, Supabase and Redis. The user will be able to create recipes, like, comment and save their favourite recipes for later. ",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "Prisma",
+    "technology4": "Supabase",
+    "technology5": "NextAuth",
+    "technology6": "Tailwind CSS",
+    "url1": "https://github.com/flyingkitties/Recipe-Project",
+    "url2": "https://www.recipe-corner.ritaguilherme.com"
   }
 ]
