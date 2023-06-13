@@ -1,6 +1,8 @@
 import React from 'react';
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 import { useForm, SubmitHandler } from 'react-hook-form';
+import { useRouter } from 'next/router';
+import { log } from 'console';
 
 type Inputs = {
   name: string;
@@ -12,6 +14,7 @@ type Inputs = {
 type Props = {};
 
 const ContactMe = (props: Props) => {
+  const router = useRouter();
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
     window.location.href = `mailto:ritaguilherme@msn.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;

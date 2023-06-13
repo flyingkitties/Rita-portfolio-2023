@@ -21,6 +21,7 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <Image
         alt=""
+        loading="lazy"
         src={profilePic}
         className="relative mx-auto h-32 w-32 rounded-full object-cover"
       />

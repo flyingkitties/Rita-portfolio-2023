@@ -1,7 +1,7 @@
-import React from "react";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import profilePic2 from "../pages/images/rita2.jpeg";
+import React from 'react';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import profilePic2 from '../pages/images/rita2.jpeg';
 
 type Props = {};
 
@@ -32,6 +32,7 @@ function About({}: Props) {
           duration: 1.2,
         }}
         animate={{}}
+        loading="lazy"
         src="https://live.staticflickr.com/65535/52488679029_6382831232_m.jpg"
         className=" w-28 h-28 sm:w-40 sm:h-40 rounded-full -mb-20 md:mb-0 flex-shrink-0 
         object-cover md:w-64 md:h-64 lg:h-[320px] lg:w-[320px] mt-10 "
@@ -39,9 +40,9 @@ function About({}: Props) {
 
       <div className="space-y-5 px-5 md:px-10 lg:px-20 lg:space-y-10">
         <h4 className="md:text-4xl text-3xl font-semibold pb-5 ">
-          Here is a{" "}
+          Here is a{' '}
           <span className="underline decoration-[#f7AB0A]/50">litle</span>
-          {""} {""}background
+          {''} {''}background
         </h4>
         <p className=" font-light text-gray-400 tracking-[1px] text-justify lg:tracking-[3px]">
           Over 3 years experience in product management and UI/UX Design, during
@@ -52,7 +53,7 @@ function About({}: Props) {
           Over the past 2 years I have focused on Full-stack Web Development and
           fell in love with the challenge. Problem solving is truly one of my
           passions. I&apos;m eager to lean more and collaborate in rapidly
-          changing enviroments.
+          changing environments.
         </p>
       </div>
     </motion.div>
