@@ -19,7 +19,7 @@ const Projects = ({ projectData }: Props) => {
       </h3>
 
       <div
-        className="relative w-full flex  overflow-y-hidden 
+        className="relative w-full flex overflow-y-hidden 
       snap-x snap-mandatory mt-20 space-x-5 p-10 z-20 scrollbar-thin scrollbar-track-gray-600/20
       scrollbar-thumb-[#f7ab0a]/60">
         {projectData?.map((projectData) => (

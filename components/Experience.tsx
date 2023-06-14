@@ -20,8 +20,8 @@ const Experience = ({ data }: Props): JSX.Element => {
       transition={{
         duration: 1.5,
       }}
-      className="flex flex-col relative h-screen text-lft md:flex-row 
-          max-w-7xl px-10 justify-evenly mx-auto items-center ">
+      className="h-screen relative flex  flex-col 
+      text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 ">
       <h3
         className="absolute top-24 uppercase tracking-[20px]
            text-gray-500 text-2xl ">
@@ -29,9 +29,9 @@ const Experience = ({ data }: Props): JSX.Element => {
       </h3>
 
       <div
-        className=" mt-20 w-full flex space-x-5  overflow-x-scroll 
-          p-10 snap-x snap-mandatory  scrollbar-thin scrollbar-track-gray-600/20
-           scrollbar-thumb-[#f7ab0a]/60">
+        className=" relative w-full flex overflow-y-hidden 
+      snap-x snap-mandatory mt-20 space-x-5 p-10 z-20 scrollbar-thin scrollbar-track-gray-600/20
+      scrollbar-thumb-[#f7ab0a]/60">
         {data?.map((data) => (
           <ExperienceCard key={data.key} data={data} />
         ))}
