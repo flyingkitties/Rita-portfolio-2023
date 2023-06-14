@@ -1,19 +1,31 @@
 [
   {
     "key": "1",
-    "title": "Amazon Replicated",
-    "description": "A replica of Amazon's website. The user is able to login using google authentication, add items to the basket, checkout and pay for the items. Previous succesful orders can be viewed in 'Returns & Orders'. Made with Tailwind CSS.",
+    "title": "Recipe Corner",
+    "description": "A recipe website with an original design and structure. Made with the Spoonacular API, Prisma, Supabase and Redis. The user will be able to create recipes, like, comment and save their favourite recipes for later. ",
     "technology1": "React.js",
     "technology2": "Next.js",
-    "technology3": "NextAuth",
-    "technology4": "Stripe",
-    "technology5": "Firebase",
-    "technology6": "Webhooks",
-    "url1": "https://github.com/flyingkitties/Amazon-Replicate",
-    "url2": "https://www.amazonreplicate.ritaguilherme.com"
+    "technology3": "Prisma",
+    "technology4": "Supabase",
+    "technology5": "NextAuth",
+    "technology6": "Tailwind CSS",
+    "url1": "https://github.com/flyingkitties/Recipe-Project",
+    "url2": "https://www.recipe-corner.ritaguilherme.com"
   },
   {
     "key": "2",
+    "title": "Client Portfolio",
+    "description": "With a tidy layout this portfolio has a minimalist feel. A single page website with easy navigation, made using React social Icons, react-responsive-carousel and tailwing Css.  ",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "Tailwind CSS",
+    "technology4": "React-Caroussel",
+    "technology5": "Social Icons",
+    "url1": "https://github.com/flyingkitties/Lorenzo-Portfolio",
+    "url2": "https://www.lorenzopolato.co.uk"
+  },
+  {
+    "key": "3",
     "title": "Reddit Replicated",
     "description": "A replica of Reddit's website. The user can login with reddit API using NextAuth and be able to post, see all posts, see posts within a subreddit, comment and vote on each one. Made with typeScript and Tailwind CSS.",
     "technology1": "React.js",
@@ -26,7 +38,21 @@
     "url2": "https://www.redditreplicate.ritaguilherme.com/"
   },
   {
-    "key": "3",
+    "key": "4",
+    "title": "Amazon Replicated",
+    "description": "A replica of Amazon's website. The user is able to login using google authentication, add items to the basket, checkout and pay for the items. Previous succesful orders can be viewed in 'Returns & Orders'. Made with Tailwind CSS.",
+    "technology1": "React.js",
+    "technology2": "Next.js",
+    "technology3": "NextAuth",
+    "technology4": "Stripe",
+    "technology5": "Firebase",
+    "technology6": "Webhooks",
+    "url1": "https://github.com/flyingkitties/Amazon-Replicate",
+    "url2": "https://www.amazonreplicate.ritaguilherme.com"
+  },
+
+  {
+    "key": "5",
     "title": "Airbnb Replicated",
     "description": "A replica of Airbnb's website. The user can login using google authentication. Use the search bar to type a location, dates and number of gests. The user will see possible options within their search and location on the map in full screen.",
     "technology1": "React.js",
@@ -37,30 +63,5 @@
     "technology6": "Tailwind CSS",
     "url1": "https://github.com/flyingkitties/AirBNB-Replicate",
     "url2": "https://airbnbreplicate.ritaguilherme.com"
-  },
-  {
-    "key": "4",
-    "title": "Client Portfolio",
-    "description": "With a tidy layout this portfolio has a minimalist feel. A single page website with easy navigation, made using React social Icons, react-responsive-carousel and tailwing Css.  ",
-    "technology1": "React.js",
-    "technology2": "Next.js",
-    "technology3": "Tailwind CSS",
-    "technology4": "React-Caroussel",
-    "technology5": "Social Icons",
-    "url1": "https://github.com/flyingkitties/Lorenzo-Portfolio",
-    "url2": "https://www.lorenzopolato.co.uk"
-  },
-  {
-    "key": "5",
-    "title": "Recipe Corner",
-    "description": "A recipe website with an original design and structure. Made with the Spoonacular API, Prisma, Supabase and Redis. The user will be able to create recipes, like, comment and save their favourite recipes for later. ",
-    "technology1": "React.js",
-    "technology2": "Next.js",
-    "technology3": "Prisma",
-    "technology4": "Supabase",
-    "technology5": "NextAuth",
-    "technology6": "Tailwind CSS",
-    "url1": "https://github.com/flyingkitties/Recipe-Project",
-    "url2": "https://www.recipe-corner.ritaguilherme.com"
   }
 ]
