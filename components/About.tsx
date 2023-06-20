@@ -41,7 +41,7 @@ function About({}: Props) {
       <div className="space-y-5 px-5 sm:px-12 md:px-10 lg:px-20 lg:space-y-10">
         <h4 className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 sm:py-5 ">
           Here is a{' '}
-          <span className="underline decoration-[#f7AB0A]/50">litle</span>
+          <span className="underline decoration-[#f7AB0A]/50">little</span>
           {''} {''}background
         </h4>
         <p className=" font-light text-gray-400 tracking-wide text-xs sm:text-base text-justify lg:tracking-[3px]">
