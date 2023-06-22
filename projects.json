@@ -15,7 +15,7 @@
   {
     "key": "2",
     "title": "Client Portfolio",
-    "description": "With a tidy layout this portfolio has a minimalist feel. A single page website with easy navigation, made using React social Icons, react-responsive-carousel and tailwing Css.  ",
+    "description": "With a tidy layout this portfolio has a minimalist feel. A single page website with easy navigation, made using React social Icons, react-responsive-carousel and Tailwind Css.  ",
     "technology1": "React.js",
     "technology2": "Next.js",
     "technology3": "Tailwind CSS",
