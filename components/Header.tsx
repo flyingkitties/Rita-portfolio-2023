@@ -2,6 +2,7 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { redirect } from 'next/dist/server/api-utils';
 
 type Props = {};
 
@@ -22,7 +23,8 @@ function Header({}: Props) {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center">
+        className="flex flex-row items-center"
+      >
         {/* Social Icons */}
         <SocialIcon
           url="https://linkedin.com/in/rita-guilherme-b2632140"
@@ -62,8 +64,9 @@ function Header({}: Props) {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center text-gray-300 cursor-pointer">
-        <div>
+        className="flex flex-row items-center text-gray-300 cursor-pointer"
+      >
+        <Link href="#contact">
           <SocialIcon
             href="#contact"
             network="email"
@@ -74,7 +77,7 @@ function Header({}: Props) {
           <p className="uppercase hidden md:inline-flex text-sm text-gray-400 ">
             Get in Touch
           </p>
-        </div>
+        </Link>
       </motion.div>
     </header>
   );
