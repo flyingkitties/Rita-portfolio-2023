@@ -26,28 +26,31 @@ function Header({}: Props) {
         className="flex flex-row items-center"
       >
         {/* Social Icons */}
-        <SocialIcon
-          url="https://linkedin.com/in/rita-guilherme-b2632140"
-          fgColor="gray"
-          bgColor="transparent"
-          target="_blank"
-          rel="noopener noreferrer"
-        />
-        <SocialIcon
-          url="https://www.instagram.com/ritawilliamsarmani/"
-          fgColor="gray"
-          bgColor="transparent"
-          target="_blank"
-          rel="noopener noreferrer"
-        />
+        <div>
+          <SocialIcon
+            url="https://linkedin.com/in/rita-guilherme-b2632140"
+            fgColor="gray"
+            bgColor="transparent"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
 
-        <SocialIcon
-          url="https://github.com/flyingkitties"
-          fgColor="gray"
-          bgColor="transparent"
-          target="_blank"
-          rel="noopener noreferrer"
-        />
+          <SocialIcon
+            url="https://www.instagram.com/ritawilliamsarmani/"
+            fgColor="gray"
+            bgColor="transparent"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+
+          <SocialIcon
+            url="https://github.com/flyingkitties"
+            fgColor="gray"
+            bgColor="transparent"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+        </div>
       </motion.div>
 
       <motion.div
@@ -66,7 +69,7 @@ function Header({}: Props) {
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        <Link href="#contact">
+        <div>
           <SocialIcon
             href="#contact"
             network="email"
@@ -74,10 +77,12 @@ function Header({}: Props) {
             fgColor="gray"
             bgColor="transparent"
           />
-          <p className="uppercase hidden md:inline-flex text-sm text-gray-400 ">
-            Get in Touch
-          </p>
-        </Link>
+          <Link href="#contact">
+            <p className="uppercase hidden md:inline-flex text-sm text-gray-400 ">
+              Get in Touch
+            </p>
+          </Link>
+        </div>
       </motion.div>
     </header>
   );

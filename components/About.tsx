@@ -18,7 +18,8 @@ function About({}: Props) {
         duration: 1.5,
       }}
       className="flex flex-col relative h-screen 
-  text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+  text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
+    >
       <h3 className="absolute top-24  uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
@@ -39,26 +40,24 @@ function About({}: Props) {
       />
 
       <div className="space-y-5 px-5 sm:px-12 md:px-10 lg:px-20 lg:space-y-10">
-        <h4 className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 sm:py-5 ">
+        <h4 className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 sm:py-5">
           Here is a{' '}
           <span className="underline decoration-[#f7AB0A]/50">little</span>
           {''} {''}background
         </h4>
-        <p className=" font-light text-gray-400 tracking-wide text-xs sm:text-base text-justify lg:tracking-[3px]">
-          Dedicated and versatile Web Developer with over 3 years experience
-          including product management and UI/UX Design.
+        <p className="text-gray-300 tracking-wide text-xs sm:text-sm md:text-base lg:text-lg text-justify">
+          I am a dedicated and versatile Web Engineer with over 3 years of
+          experience, including product management and UI/UX Design. Over the
+          past 2 years, I have deliberately immersed myself in the intricate art
+          of Full-stack Web Development, and have grown to love the challenge of
+          problem-solving.
         </p>
-        <p className=" font-light text-gray-400 tracking-wide text-xs sm:text-base text-justify lg:tracking-[3px]">
-          Over the past 2 years I have focused on Full-stack Web Development and
-          fell in love with the challenge. Problem solving is truly one of my
-          passions.
-        </p>
-
-        <p className=" font-light text-gray-400 tracking-wide text-xs sm:text-base  text-justify lg:tracking-[3px] ">
-          I&apos;m proficient in managing teams, eager to lean and collaborate
-          in rapidly changing environments. I possess an excellent can-do
-          attitude and thrive in fast-paced settings. Highly motivated, reliable
-          and proactive with a strong work ethic.
+        <p className="text-gray-300 tracking-wide text-xs sm:text-sm md:text-base lg:text-lg text-justify">
+          My proficiency extends to team management, and I possess a strong
+          desire to learn and collaborate effectively in dynamic, ever-evolving
+          environments. My approach is characterized by an unwavering can-do
+          attitude, and I thrive in fast-paced settings. I am highly motivated,
+          reliable, proactive, and bring a robust work ethic to every project.
         </p>
       </div>
     </motion.div>

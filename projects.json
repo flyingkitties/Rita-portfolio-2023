@@ -1,6 +1,18 @@
 [
   {
     "key": "1",
+    "title": "P-Man",
+    "description": "The only project management APP you need. Made with OpenAi GPT-3, Appwrite Open-Source End-to-End Backend Server, Zustand for state managemet, DnD library and Tailwind Css.  ",
+    "technology1": "React.js",
+    "technology2": "Next13.js",
+    "technology3": "AppWrite",
+    "technology4": "Zustand",
+    "technology5": "Drag and drop",
+    "url1": "https://github.com/flyingkitties/Lorenzo-Portfolio",
+    "url2": "https://www.lorenzopolato.co.uk"
+  },
+  {
+    "key": "2",
     "title": "Recipe Corner",
     "description": "A recipe website with an original design and structure. Made with the Spoonacular API, Prisma, Supabase and Redis. The user will be able to create recipes, like, comment and save their favourite recipes for later. ",
     "technology1": "React.js",
@@ -13,7 +25,7 @@
     "url2": "https://www.recipe-corner.ritaguilherme.com"
   },
   {
-    "key": "2",
+    "key": "3",
     "title": "Client Portfolio",
     "description": "With a tidy layout this portfolio has a minimalist feel. A single page website with easy navigation, made using React social Icons, react-responsive-carousel and Tailwind Css.  ",
     "technology1": "React.js",
@@ -25,7 +37,7 @@
     "url2": "https://www.lorenzopolato.co.uk"
   },
   {
-    "key": "3",
+    "key": "4",
     "title": "Reddit Replicated",
     "description": "A replica of Reddit's website. The user can login with reddit API using NextAuth and be able to post, see all posts, see posts within a subreddit, comment and vote on each one. Made with typeScript and Tailwind CSS.",
     "technology1": "React.js",
@@ -38,7 +50,7 @@
     "url2": "https://www.redditreplicate.ritaguilherme.com/"
   },
   {
-    "key": "4",
+    "key": "5",
     "title": "Amazon Replicated",
     "description": "A replica of Amazon's website. The user is able to login using google authentication, add items to the basket, checkout and pay for the items. Previous succesful orders can be viewed in 'Returns & Orders'. Made with Tailwind CSS.",
     "technology1": "React.js",
@@ -52,7 +64,7 @@
   },
 
   {
-    "key": "5",
+    "key": "6",
     "title": "Airbnb Replicated",
     "description": "A replica of Airbnb's website. The user can login using google authentication. Use the search bar to type a location, dates and number of gests. The user will see possible options within their search and location on the map in full screen.",
     "technology1": "React.js",

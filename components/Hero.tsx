@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
-import profilePic from '../pages/images/rita.jpeg';
+import profilePic from '../pages/images/profile.png';
 import Link from 'next/link';
 import Snowfall from 'react-snowfall';
 
@@ -17,11 +17,12 @@ function Hero({}: Props) {
   return (
     <div
       className="h-screen relative flex flex-col top-24 space-y-8 items-center 
-    justify-center text-center overflow-hidden ">
+    justify-center text-center overflow-hidden "
+    >
       <BackgroundCircles />
       <Image
-        alt=""
-        loading="lazy"
+        alt="Profile"
+        priority
         src={profilePic}
         className="relative mx-auto h-32 w-32 rounded-full object-cover"
       />
