@@ -2,7 +2,7 @@
   {
     "key": "1",
     "title": "P-Man",
-    "description": "The only project management APP you need. Made with OpenAi GPT-3, Appwrite Open-Source End-to-End Backend Server, Zustand for state managemet, DnD library and Tailwind Css.  ",
+    "description": "The only project management APP you need. Based on Trello and Jira. Made with OpenAi GPT-3, Appwrite Open-Source End-to-End Backend Server, Zustand for state managemet, DnD library and Tailwind Css.  ",
     "technology1": "React.js",
     "technology2": "Next13.js",
     "technology3": "AppWrite",
