@@ -20,9 +20,9 @@ function About({}: Props) {
       className="flex flex-col relative h-screen 
   text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24  uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h2 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
-      </h3>
+      </h2>
       <motion.img
         initial={{
           x: -200,
@@ -34,6 +34,7 @@ function About({}: Props) {
         }}
         animate={{}}
         loading="lazy"
+        alt="Profile image"
         src="https://live.staticflickr.com/65535/52488679029_6382831232_m.jpg"
         className=" w-20 h-20 sm:w-40 sm:h-40 rounded-full -mb-20 md:mb-0 flex-shrink-0 
         object-cover md:w-64 md:h-64 lg:h-[320px] lg:w-[320px] mt-16 sm:mt-10 "

@@ -14,33 +14,60 @@ const Home: NextPage = ({ data, projectData }: any) => {
   return (
     <div
       className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden
-    z-0  ">
+    z-0  "
+    >
       <Head>
         <title>Rita&apos;s Portfolio</title>
+        <meta
+          name="description"
+          content="Rita Guilherme - Web engineer, Front End Engineer - Brighton"
+          key="desc"
+        />
       </Head>
       <Header />
       {/* Hero */}
-      <section id="hero" className="snap-center ">
+      <section
+        id="hero"
+        className="snap-center "
+      >
         <Hero />
       </section>
       {/* About */}
-      <section id="about" className="snap-center">
+      <section
+        id="about"
+        className="snap-center"
+      >
         <About />
       </section>
       {/* projects */}
-      <section id="projects" className="snap-center">
-        <Projects key={projectData.key} projectData={projectData} />
+      <section
+        id="projects"
+        className="snap-center"
+      >
+        <Projects
+          key={projectData.key}
+          projectData={projectData}
+        />
       </section>
       {/* Experience */}
-      <section id="experience" className="snap-center">
-        <Experience key={data.key} data={data} />
+      <section
+        id="experience"
+        className="snap-center"
+      >
+        <Experience
+          key={data.key}
+          data={data}
+        />
       </section>
       {/* Skills */}
       {/* <section id="skills" className="snap-center">
         <Skills />
       </section> */}
       {/* Contact Me */}
-      <section id="contact" className="snap-center">
+      <section
+        id="contact"
+        className="snap-center"
+      >
         <ContactMe />
       </section>
     </div>

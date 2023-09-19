@@ -27,7 +27,7 @@ function Hero({}: Props) {
         className="relative mx-auto h-32 w-32 rounded-full object-cover"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px]">
+        <h2 className="text-sm uppercase text-gray-300 pb-2 tracking-[10px]">
           Web Engineer
         </h2>
         <h1 className="text-3xl lg:text-4xl font-semibold px-10 pb-12">

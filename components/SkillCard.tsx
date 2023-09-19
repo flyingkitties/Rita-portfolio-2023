@@ -1,6 +1,6 @@
-import React from "react";
-import { motion } from "framer-motion";
-import reactLogo from "../pages/images/reactLogo.png";
+import React from 'react';
+import { motion } from 'framer-motion';
+import reactLogo from '../pages/images/reactLogo.png';
 
 type Props = {
   directionLeft?: boolean;
@@ -16,6 +16,8 @@ function SkillCard({ directionLeft }: Props) {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
+        alt="Skill Logo"
+        loading="eager"
         src="https://live.staticflickr.com/65535/52490675493_30f9e0a8c4_q.jpg"
         className="h-12 w-12 rounded-full border-gray-500 object-cover filter group-hover:grayscale
         transition duration-300 ease-out "
