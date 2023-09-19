@@ -41,11 +41,11 @@ function About({}: Props) {
       />
 
       <div className="space-y-5 px-5 sm:px-12 md:px-10 lg:px-20 lg:space-y-10">
-        <h4 className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 sm:py-5">
+        <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 sm:py-5">
           Here is a{' '}
           <span className="underline decoration-[#f7AB0A]/50">little</span>
           {''} {''}background
-        </h4>
+        </h1>
         <p className="text-gray-300 tracking-wide text-xs sm:text-sm md:text-base lg:text-lg text-justify">
           I am a dedicated and versatile Web Engineer with over 3 years of
           experience, including product management and UI/UX Design. Over the
