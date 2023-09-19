@@ -29,17 +29,17 @@ const ContactMe = (props: Props) => {
     text-center md:text-left items-center mx-auto justify-evenly
     px-10 max-w-7xl "
     >
-      <h3
+      <h1
         className="absolute top-24 uppercase tracking-[20px]
        text-gray-500 text-2xl "
       >
         Contact Me
-      </h3>
+      </h1>
 
       <div className=" absolute top-36 bottom-2 flex flex-col space-y-3 pt-10 sm:px-10 place-content-evenly">
-        <h4 className=" text-xl sm:text-4xl font-semibold text-center">
+        <h2 className=" text-xl sm:text-4xl font-semibold text-center">
           Get in touch
-        </h4>
+        </h2>
         <div>
           <p className=" sm:text-xl text-center font-extralight">
             I&apos;m currently open to new opportunities.
