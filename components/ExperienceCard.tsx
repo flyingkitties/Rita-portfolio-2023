@@ -25,7 +25,7 @@ const ExperienceCard = ({ data }: any) => {
     opacity-75  cursor-pointer  transition-opacity duration-200  hover:-translate-y-2 "
     >
       <div className="p-3 md:px-10 ">
-        <h4 className="text-2xl font-light">{title}</h4>
+        <h1 className="text-2xl font-light">{title}</h1>
         <p className="font-bold text-l md:text-xl mt-1">{company}</p>
         <div className="flex space-x-2 my-2">{/* teck used */}</div>
         <p className="uppercase pb-5 text-gray-300 text-xs md:text-sm">
