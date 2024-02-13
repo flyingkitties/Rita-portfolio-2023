@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import ExperienceCard from './ExperienceCard';
 import { CardProps } from './CardProps';
-import index from '../pages/index';
 
 interface Props {
   data: Array<CardProps>;

@@ -1,7 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import profilePic2 from '../pages/images/rita2.jpeg';
 
 type Props = {};
 
