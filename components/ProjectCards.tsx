@@ -21,13 +21,9 @@ const ProjectCards = ({ projectData }: any) => {
   } = projectData;
 
   return (
-    <div
-      className="relative z-10 flex flex-col rounded-lg items-center bg-[rgb(68,68,68)]
-    space-y-7 hover:opacity-100 flex-shrink-0 w-[300px] sm:w-[450px] mt-10 p-5 sm:p-7 text-center 
-    opacity-75  transition-opacity duration-200  hover:-translate-y-2"
-    >
+    <div className="card z-10 ">
       <div className="w-full h-full sm:p-3 mx-10 space-y-7">
-        <div className="absolute flex h-25 w-25 top-1 right-1 ">
+        <div className="absolute flex h-25 w-25 top-1 right-1">
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
             url={url1}

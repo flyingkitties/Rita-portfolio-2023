@@ -17,11 +17,29 @@
     focus:border-[#f7ab0a]/60 focus:text-[#f7ab0a]/60
     hover:border-[#f7ab0a]/60;
   }
+  .backgroundStripe {
+    @apply w-full absolute top-[30%] bg-[rgb(48,48,48)] h-[500px]
+    -skew-y-12;
+  }
+  /* Sections */
+  .sectionContainer {
+    @apply h-screen relative flex flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0;
+  }
   .sectionTitle {
     @apply flex absolute w-full justify-center top-24 uppercase tracking-[20px]
     text-gray-500 text-xl sm:text-2xl;
   }
-  /* Sections */
+  /* Cards */
+  .cardsContainer {
+    @apply flex relative w-full overflow-y-hidden 
+    snap-x snap-mandatory mt-20 space-x-5 p-4 sm:p-10 z-20 scrollbar-thin scrollbar-track-gray-600/20
+    scrollbar-thumb-[#f7ab0a]/60;
+  }
+  .card {
+    @apply relative  flex flex-col rounded-lg items-center bg-[rgb(68,68,68)]
+    space-y-7 hover:opacity-100 flex-shrink-0 w-[300px] sm:w-[450px] mt-10 p-5 sm:p-7 text-center 
+    opacity-75  transition-opacity duration-200  hover:-translate-y-2;
+  }
 }
 #move_Tiles:hover {
   transform: translate(0, -10px);
