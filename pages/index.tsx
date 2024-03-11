@@ -19,8 +19,8 @@ const Home: NextPage = ({ data, projectData }: any) => {
       <Head>
         <title>Rita&apos;s Portfolio</title>
         <meta
-          name="Rita Guilherme - Portfolio"
-          content="Rita Guilherme - Web engineer, Front End Engineer - Brighton"
+          name="description"
+          content="Rita Guilherme - Web engineer, Front-End Engineer, Full Stack Engineer - Brighton"
           key="desc"
         />
       </Head>
