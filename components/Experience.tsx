@@ -22,16 +22,11 @@ const Experience = ({ data }: Props): JSX.Element => {
       className="h-screen relative flex  flex-col 
       text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 "
     >
-      <h1
-        className="absolute top-24 uppercase tracking-[20px]
-           text-gray-500 text-2xl "
-      >
-        Experience
-      </h1>
+      <h1 className="sectionTitle">Experience</h1>
 
       <div
-        className=" relative w-full flex overflow-y-hidden 
-      snap-x snap-mandatory mt-20 space-x-5 p-10 z-20 scrollbar-thin scrollbar-track-gray-600/20
+        className="flex relative w-full overflow-y-hidden 
+      snap-x snap-mandatory mt-20 space-x-5 p-4 sm:p-10 z-20 scrollbar-thin scrollbar-track-gray-600/20
       scrollbar-thumb-[#f7ab0a]/60"
       >
         {data?.map((data) => (

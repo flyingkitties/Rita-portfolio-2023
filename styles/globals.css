@@ -17,6 +17,11 @@
     focus:border-[#f7ab0a]/60 focus:text-[#f7ab0a]/60
     hover:border-[#f7ab0a]/60;
   }
+  .sectionTitle {
+    @apply flex absolute w-full justify-center top-24 uppercase tracking-[20px]
+    text-gray-500 text-xl sm:text-2xl;
+  }
+  /* Sections */
 }
 #move_Tiles:hover {
   transform: translate(0, -10px);

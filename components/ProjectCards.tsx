@@ -23,10 +23,10 @@ const ProjectCards = ({ projectData }: any) => {
   return (
     <div
       className="relative z-10 flex flex-col rounded-lg items-center bg-[rgb(68,68,68)]
-    space-y-7 hover:opacity-100 flex-shrink-0 w-[300px] sm:w-[450px] mt-10 p-7 text-center 
+    space-y-7 hover:opacity-100 flex-shrink-0 w-[300px] sm:w-[450px] mt-10 p-5 sm:p-7 text-center 
     opacity-75  transition-opacity duration-200  hover:-translate-y-2"
     >
-      <div className="w-full h-full p-3 mx-10 space-y-7">
+      <div className="w-full h-full sm:p-3 mx-10 space-y-7">
         <div className="absolute flex h-25 w-25 top-1 right-1 ">
           <SocialIcon
             className="hover:bg-white hover:rounded-full"
@@ -47,18 +47,16 @@ const ProjectCards = ({ projectData }: any) => {
           />
         </div>
 
-        <h1 className="text-lg sm:text-xl  font-bold cursor-pointer">
-          {title}
-        </h1>
+        <h1 className="text-lg sm:text-xl font-bold cursor-pointer">{title}</h1>
         <p
-          className="font-light text-sm sm:text-base md:text-lg px-3 sm:px-2 
+          className="font-light text-sm md:text-base px-3 sm:px-2 
           mt-1 md:text-justify cursor-pointer text-justify"
         >
           {description}
         </p>
         <div
-          className="grid grid-rows-2 grid-flow-col gap-3 sm:gap-4  text-[10px] sm:text-xs
-        space-x-4 pt-5  font-extralight cursor-pointer justify-evenly"
+          className="grid grid-rows-2 grid-flow-col gap-3 sm:gap-4 text-[10px] sm:text-xs
+        space-x-4 pt-5 font-extralight cursor-pointer justify-evenly"
         >
           <p className="hover:underline ">{technology1}</p>
           <p className="hover:underline">{technology2}</p>
